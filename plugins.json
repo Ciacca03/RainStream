@@ -3,6 +3,9 @@
     "name": "FlixBaba",
     "url": "https://raw.githubusercontent.com/Ciacca03/RainStream/main/flixbaba.js",
     "version": 1,
-    "status": 1
+    "language": "it",
+    "iconUrl": "https://flixbaba.is/favicon.ico",
+    "description": "Provider per FlixBaba",
+    "tvTypes": ["Movie", "TvSeries"]
   }
 ]
