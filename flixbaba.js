@@ -1,13 +1,10 @@
-import {
-    makeVideoExtractor,
-    makeCloudstreamPlugin,
-    CloudstreamPlugin
-} from "../src/cloudstream"
-
-export default makeCloudstreamPlugin({
+const plugin = {
     name: "FlixBaba",
     url: "https://flixbaba.is/",
     lang: "it",
     description: "Plugin per FlixBaba",
-    type: "tv",
-});
+    version: "1.0.0",
+    type: "tv"
+};
+
+export default plugin;
