@@ -1,9 +1,6 @@
-[
-  {
-    "name": "FlixBaba",
-    "url": "https://raw.githubusercontent.com/Ciacca03/RainStream/main/flixbaba.js",
-    "version": 1,
-    "language": "it",
-    "description": "Provider per FlixBaba"
-  }
-]
+{
+  "name": "RainStream",
+  "description": "I miei film rari",
+  "manifestVersion": 1,
+  "pluginUrl": "https://raw.githubusercontent.com/Ciacca03/RainStream/main/flixbaba.js"
+}
