@@ -2,5 +2,5 @@
   "name": "FlixBaba Repo",
   "description": "Repository per FlixBaba",
   "manifestVersion": 1,
-  "pluginUrl": "https://flixbaba.is/"
+  "pluginUrl": "https://raw.githubusercontent.com/Ciacca03/RainStream/main/flixbaba.js"
 }
