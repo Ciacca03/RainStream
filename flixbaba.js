@@ -1,10 +1,21 @@
-const plugin = {
+import { 
+    Cloudstream
+} from "../dist/cloudstream.js"; // Questo serve all'app per capire il linguaggio
+
+const FlixBaba = {
     name: "FlixBaba",
-    url: "https://flixbaba.is/",
+    baseUrl: "https://flixbaba.is",
     lang: "it",
-    description: "Plugin per FlixBaba",
-    version: "1.0.0",
-    type: "tv"
+    
+    search: async function(query) {
+        // Logica di ricerca (da implementare insieme)
+        return [];
+    },
+
+    load: async function(url) {
+        // Logica di caricamento film (da implementare insieme)
+        return {};
+    }
 };
 
-export default plugin;
+export default FlixBaba;
